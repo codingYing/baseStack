@@ -1,0 +1,15 @@
+nav {
+  display: table;
+  ul {
+    display: table-row;
+    li {
+      display: table-cell;
+      &:first-child {
+        text-align: left;
+      }
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+}

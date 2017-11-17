@@ -1,0 +1,12 @@
+nav {
+  display: table; }
+  nav ul {
+    display: table-row; }
+    nav ul li {
+      display: table-cell; }
+      nav ul li:first-child {
+        text-align: left; }
+      nav ul li:last-child {
+        text-align: right; }
+
+/*# sourceMappingURL=header.css.map */

@@ -7,11 +7,11 @@
 (function () {
     'use strict';
 
-    angular.module('topBar')
+    angular.module('app.topBar')
         .controller('topBarController', topBarController);
 
-    topBarController.$injector = [];
+    topBarController.$inject = [];
 
-    topBarController = () => {}
+    function topBarController () {}
 
 })();
